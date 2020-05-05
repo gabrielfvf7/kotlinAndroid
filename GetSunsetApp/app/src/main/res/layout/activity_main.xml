@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/grey"
     tools:context=".MainActivity">
 
     <Button
+        android:background="@drawable/button_blue"
         android:id="@+id/btnGetSunset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="Pegar"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,16 +22,20 @@
 
     <TextView
         android:id="@+id/txtHint"
-        android:layout_width="255dp"
-        android:layout_height="74dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="208dp"
+        android:background="@drawable/background"
         android:text="Clique no botão para saber o por do sol"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
+        android:background="@drawable/background"
+        android:gravity="center"
         android:id="@+id/txtSunset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
